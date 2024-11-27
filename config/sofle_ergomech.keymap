@@ -16,7 +16,7 @@
 #define ADJUST 3
 
 &mt {
-    tapping-term-ms = <400ms>;
+    tapping-term-ms = <400>;
 };
 
 / {
