@@ -15,6 +15,10 @@
 #define RAISE 2
 #define ADJUST 3
 
+&mt {
+    tapping-term-ms=<400ms>;
+}
+
 / {
     // Activate ADJUST layer by pressing raise and lower
 
