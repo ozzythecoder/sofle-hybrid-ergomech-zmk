@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: sofle_ergomech}
 layers:
   default:
   - '`'
@@ -49,13 +50,13 @@ layers:
   - /
   - default
   - MUTE
-  - LGUI
+  - number
   - LALT
   - LEFT META
-  - raise
-  - SPACE
-  - RET
-  - lower
+  - nav
+  - {t: SPACE, h: nav}
+  - {t: ENTER, h: sym}
+  - sym
   - BACKSPACE
   - DEL
   - RGUI
@@ -64,7 +65,7 @@ layers:
   - UP ARROW
   - LEFT
   - DOWN
-  lower:
+  sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,7 +99,7 @@ layers:
   - '['
   - '{'
   - (
-  - /
+  - )
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,8 +120,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,7 +130,7 @@ layers:
   - C
   - D
   - E
-  raise:
+  nav:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -159,7 +160,7 @@ layers:
   - F6
   - F7
   - F8
-  - CLCK
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
@@ -172,10 +173,10 @@ layers:
   - F11
   - F12
   - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,14 +244,14 @@ layers:
   - ''
   - ''
   - ''
-  - RGB TOG
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - {type: held}
   - ''
-  - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -259,3 +260,68 @@ layers:
   - C
   - D
   - E
+  number:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
