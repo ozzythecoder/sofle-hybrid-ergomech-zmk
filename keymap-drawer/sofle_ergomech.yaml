@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F4
+  - Alt+SPACE
   - TAB
   - Q
   - W
@@ -27,14 +27,14 @@ layers:
   - \
   - {t: ESCAPE, h: LCTRL}
   - {t: A, h: LSHFT}
-  - S
-  - D
-  - F
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LGUI}
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: LEFT GUI}
+  - {t: K, h: LCTRL}
+  - {t: L, h: LALT}
   - {t: ;, h: RSHFT}
   - ''''
   - '&caps_word'
@@ -91,9 +91,9 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - +
   - '-'
   - '='
-  - +
   - ''''
   - '"'
   - '['
@@ -107,7 +107,7 @@ layers:
   - ':'
   - _
   - '`'
-  - '}'
+  - '~'
   - ']'
   - '}'
   - <
@@ -119,7 +119,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
